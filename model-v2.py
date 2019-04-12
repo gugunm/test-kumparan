@@ -146,7 +146,8 @@ if __name__ == '__main__':
     model.train()
 
     # try to predict
-    # article_topic = model.predict("article_content")
+    article_topic = model.predict("article_content")
+    print(article_topic)
 
     # Save your trained model to model.pickle
     model.save()
